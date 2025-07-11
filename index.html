@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="template.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Template Generator</h1>
+        
+        <div class="load-section">
+            <button id="load-format-btn">Load format.txt</button>
+            <input type="file" id="file-input" accept=".txt" style="display: none;">
+        </div>
+        
+        <div id="questions-container"></div>
+        
+        <div id="output-section" style="display: none;">
+            <h2>Generated Output</h2>
+            <div id="output-container">
+                <textarea id="output-text" readonly></textarea>
+                <button id="copy-btn">Copy to Clipboard</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

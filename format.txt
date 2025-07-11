@@ -1,0 +1,28 @@
+# Here's what this does.  This file is the template to create text based on the answers to your questions.
+# You can add and remove questions and associated text/answers here.
+
+# Here's the format.
+# Blank lines are ignored.
+# Any line that starts with a # is a comment.  These are for notes to yourself when making the template.
+# Questions start with -Q 
+# Answers must follow a question and start with -A
+# An answer that is open ended, just a blank line for the user to fill in, should end have a -? after the -A
+# Template Text follows each answer and starts with -T
+# When the user selects that answer, that text will be included in the output.
+# Template Text following an open ended question can use -? in the text and it will be replaced with what the user entered for the answer.
+
+# Tabs or spaces can be used to help organize this template.
+# Here's an exmple
+
+-Q What is your name?
+    -A -?
+        -T Hi, my name is -?.  It's my first time using this template.
+
+-Q What's your favorite color?
+    -A Blue
+        -T I find blue to understand the complexity of the world, but still face it with bright optimism and determination.
+    -A Black
+        -T Black, huh.  Interesting.
+    -A Brown
+        -T So, autumn coffee and falling leaves.
+
